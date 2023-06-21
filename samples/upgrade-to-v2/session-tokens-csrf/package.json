@@ -24,8 +24,8 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@foal/core": "^2.0.0-beta.1",
-    "@foal/typeorm": "^2.0.0-beta.1",
+    "foalts2-core": "^2.0.0-beta.1",
+    "foalts2-typeorm": "^2.0.0-beta.1",
     "source-map-support": "^0.5.1",
     "sqlite3": "^4.0.0",
     "typeorm": "0.2.29"

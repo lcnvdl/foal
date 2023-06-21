@@ -1,6 +1,6 @@
 {
-  "name": "@foal/password",
-  "version": "2.11.0",
+  "name": "foalts2-password",
+  "version": "2.12.0",
   "description": "Password utilities for FoalTS",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

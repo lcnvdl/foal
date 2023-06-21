@@ -30,10 +30,10 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@foal/core": "^1.0.0",
-    "@foal/jwks-rsa": "^1.2.0",
-    "@foal/jwt": "^1.2.0",
-    "@foal/typeorm": "^1.0.0",
+    "foalts2-core": "^1.0.0",
+    "foalts2-jwks-rsa": "^1.2.0",
+    "foalts2-jwt": "^1.2.0",
+    "foalts2-typeorm": "^1.0.0",
     "source-map-support": "^0.5.1",
     "sqlite3": "^4.1.1",
     "typeorm": "^0.2.6"

@@ -33,12 +33,12 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@foal/aws-s3": "^1.11.0",
-    "@foal/core": "^1.0.0",
-    "@foal/jwt": "^1.11.0",
-    "@foal/storage": "^1.11.0",
-    "@foal/swagger": "^1.11.0",
-    "@foal/typeorm": "^1.0.0",
+    "foalts2-aws-s3": "^1.11.0",
+    "foalts2-core": "^1.0.0",
+    "foalts2-jwt": "^1.11.0",
+    "foalts2-storage": "^1.11.0",
+    "foalts2-swagger": "^1.11.0",
+    "foalts2-typeorm": "^1.0.0",
     "source-map-support": "^0.5.1",
     "sqlite3": "^4.0.0",
     "typeorm": "0.2.24"
