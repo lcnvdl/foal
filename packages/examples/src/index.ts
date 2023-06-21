@@ -7,8 +7,8 @@
 import 'source-map-support/register';
 
 // 3p
-import { Config, createApp, displayServerURL } from '@foal/core';
-import { createConnection } from '@foal/typeorm/node_modules/typeorm';
+import { Config, createApp, displayServerURL } from 'foalts2-core';
+import { createConnection } from 'typeorm';
 
 // App
 import { AppController } from './app/app.controller';

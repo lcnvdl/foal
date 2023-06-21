@@ -3,7 +3,7 @@ import { deepStrictEqual, ok, strictEqual } from 'assert';
 
 // 3p
 import 'reflect-metadata';
-import { dependency, ServiceManager } from '@foal/core';
+import { dependency, ServiceManager } from 'foalts2-core';
 
 // FoalTS
 import { WebsocketHook, WebsocketHookFunction, WebsocketContext, EventName } from '../architecture';

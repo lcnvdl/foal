@@ -5,7 +5,7 @@ import { createServer } from 'http';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { SocketIOController } from '@foal/socket.io';
+import { SocketIOController } from 'foalts2-socket.io';
 
 export function closeConnections({ httpServer, socket, controller }: { httpServer?: ReturnType<typeof createServer>, socket?: ReturnType<typeof io>, controller?: SocketIOController }): Promise<void> {
   return new Promise(resolve => {

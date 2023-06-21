@@ -1,5 +1,5 @@
 // 3p
-import { createConnection, Entity, getConnection, getRepository } from '@foal/typeorm/node_modules/typeorm';
+import { createConnection, Entity, getConnection, getRepository } from 'typeorm';
 import * as request from 'supertest';
 
 // FoalTS
@@ -10,7 +10,7 @@ import {
   Get,
   HttpResponseNoContent,
   UseSessions,
-} from '@foal/core';
+} from 'foalts2-core';
 import {
   DatabaseSession,
   fetchUserWithPermissions,
@@ -19,7 +19,7 @@ import {
   PermissionRequired,
   TypeORMStore,
   UserWithPermissions
-} from '@foal/typeorm';
+} from 'foalts2-typeorm';
 
 describe('[Authorization|permissions] Users', () => {
 

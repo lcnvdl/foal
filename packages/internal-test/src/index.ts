@@ -4,7 +4,7 @@
  * Released under the MIT License.
  */
 
-// Used in @foal/storage:
+// Used in foalts2-storage:
 export class ConcreteDisk {
   write() {
     throw new Error('internal-test package: write called');
@@ -23,7 +23,7 @@ export class ConcreteDisk {
   }
 }
 
-// Used in @foal/core:
+// Used in foalts2-core:
 export class ConcreteSessionStore {
 
 }

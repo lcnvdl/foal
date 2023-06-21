@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // 3p
-import { Config, HttpResponse, HttpResponseOK } from '@foal/core';
+import { Config, HttpResponse, HttpResponseOK } from 'foalts2-core';
 
 // FoalTS
 import {

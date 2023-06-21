@@ -19,8 +19,8 @@ import {
   ServiceManager,
   Session,
   UseSessions
-} from '@foal/core';
-import { RedisStore } from '@foal/redis';
+} from 'foalts2-core';
+import { RedisStore } from 'foalts2-redis';
 
 describe('Feature: Specifying the store locally', () => {
 

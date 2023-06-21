@@ -1,5 +1,5 @@
 // 3p
-import { Config, CookieOptions, generateToken, HttpResponse } from '@foal/core';
+import { Config, CookieOptions, generateToken, HttpResponse } from 'foalts2-core';
 import { decode, sign } from 'jsonwebtoken';
 
 // FoalTS

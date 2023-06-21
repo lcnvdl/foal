@@ -5,7 +5,7 @@ import { join } from 'path';
 import { Readable } from 'stream';
 
 // 3p
-import { Config, ConfigNotFoundError, createService, streamToBuffer } from '@foal/core';
+import { Config, ConfigNotFoundError, createService, streamToBuffer } from 'foalts2-core';
 
 // FoalTS
 import { FileDoesNotExist } from './disk.service';

@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // 3p
-import { Context } from '@foal/core';
+import { Context } from 'foalts2-core';
 
 // FoalTS
 import { getCsrfTokenFromRequest } from './get-csrf-token-from-request';

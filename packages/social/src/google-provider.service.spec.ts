@@ -2,7 +2,7 @@
 import { deepStrictEqual, strictEqual } from 'assert';
 
 // 3p
-import { createService } from '@foal/core';
+import { createService } from 'foalts2-core';
 import { sign } from 'jsonwebtoken';
 
 // FoalTS

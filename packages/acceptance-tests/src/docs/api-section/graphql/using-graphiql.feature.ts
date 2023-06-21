@@ -5,7 +5,7 @@ import { } from 'assert';
 import * as request from 'supertest';
 
 // FoalTS
-import { controller, createApp } from '@foal/core';
+import { controller, createApp } from 'foalts2-core';
 import { GraphiQLController, GraphiQLControllerOptions } from '@foal/graphiql';
 
 // This set of tests mainly verifies that the code examples in the documentation compile.

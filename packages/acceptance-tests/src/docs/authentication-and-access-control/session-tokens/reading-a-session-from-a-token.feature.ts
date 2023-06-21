@@ -8,8 +8,8 @@ import {
   createSession,
   readSession,
   Store,
-} from '@foal/core';
-import { DatabaseSession } from '@foal/typeorm';
+} from 'foalts2-core';
+import { DatabaseSession } from 'foalts2-typeorm';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath } from '../../../common';
 
 describe('Feature: Reading a session from a token', () => {

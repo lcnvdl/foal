@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "foalts2-core": "^2.12.0",
-    "foalts2-graphiql": "^2.12.0",
+    "@foal/graphiql": "^2.11.0",
     "foalts2-jwks-rsa": "^2.12.0",
-    "foalts2-jwt": "^2.12.0",
+    "foalts2-jwt": "^2.12.1",
     "foalts2-mongodb": "^2.12.0",
     "foalts2-redis": "^2.12.0",
     "foalts2-social": "^2.12.0",

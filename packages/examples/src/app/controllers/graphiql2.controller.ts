@@ -1,4 +1,4 @@
-import { GraphiQLController, GraphiQLControllerOptions } from '@foal/graphiql';
+import { GraphiQLController, GraphiQLControllerOptions } from 'foalts2-graphiql';
 
 export class GraphiQL2Controller extends GraphiQLController {
 

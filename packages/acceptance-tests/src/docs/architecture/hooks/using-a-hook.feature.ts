@@ -12,8 +12,8 @@ import {
   HttpResponseOK,
   Post,
   ValidateBody,
-} from '@foal/core';
-import { getSecretOrPrivateKey, JWTRequired } from '@foal/jwt';
+} from 'foalts2-core';
+import { getSecretOrPrivateKey, JWTRequired } from 'foalts2-jwt';
 
 describe('Feature: Using a hook', () => {
 

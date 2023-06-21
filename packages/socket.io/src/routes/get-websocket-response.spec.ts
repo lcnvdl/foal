@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // 3p
-import { Config, ServiceManager } from '@foal/core';
+import { Config, ServiceManager } from 'foalts2-core';
 
 // FoalTS
 import { getWebsocketResponse } from './get-websocket-response';

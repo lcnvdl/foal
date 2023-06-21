@@ -3,9 +3,9 @@ import * as request from 'supertest';
 import { BaseEntity, Column, createConnection, Entity, getConnection, PrimaryGeneratedColumn } from 'typeorm';
 
 // FoalTS
-import { Context, createApp, HttpResponseCreated, Post } from '@foal/core';
-import { ValidateBody } from '@foal/typestack';
-import { IsNumber, IsString } from '@foal/typestack/node_modules/class-validator';
+import { Context, createApp, HttpResponseCreated, Post } from 'foalts2-core';
+import { ValidateBody } from 'foalts2-typestack';
+import { IsNumber, IsString } from 'class-validator';
 
 describe('ValidateBody hook', () => {
 

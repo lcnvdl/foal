@@ -6,7 +6,7 @@ import { AddressInfo } from 'net';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { EventName, SocketIOController, WebsocketContext, WebsocketResponse } from '@foal/socket.io';
+import { EventName, SocketIOController, WebsocketContext, WebsocketResponse } from 'foalts2-socket.io';
 import { closeConnections, createConnections } from './common';
 
 describe('Feature: Grouping clients in rooms', () => {

@@ -1,5 +1,5 @@
 // 3p
-import { Class } from '@foal/core';
+import { Class } from 'foalts2-core';
 
 // FoalTS
 import { WebsocketContext } from './websocket-context';

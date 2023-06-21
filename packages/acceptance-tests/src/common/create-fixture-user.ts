@@ -1,4 +1,4 @@
-import { hashPassword } from '@foal/core';
+import { hashPassword } from 'foalts2-core';
 import { User } from './user.entity';
 
 export async function createFixtureUser(n: number): Promise<User> {

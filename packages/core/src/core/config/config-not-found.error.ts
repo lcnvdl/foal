@@ -11,7 +11,7 @@ export class ConfigNotFoundError extends Error {
       const lines: string[] = [];
 
       if (type === 'JS') {
-        lines.push('  const { Env } = require(\'@foal/core\');');
+        lines.push('  const { Env } = require(\'foalts2-core\');');
         lines.push('');
       }
 

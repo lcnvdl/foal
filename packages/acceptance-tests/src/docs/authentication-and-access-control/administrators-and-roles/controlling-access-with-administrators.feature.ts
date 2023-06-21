@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // 3p
-import { BaseEntity, Column, Entity, getConnection, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { BaseEntity, Column, Entity, getConnection, PrimaryGeneratedColumn } from 'typeorm';
 import * as request from 'supertest';
 
 // FoalTS
@@ -10,8 +10,8 @@ import {
   Config, Context, controller, createApp, createSession,
   dependency, Get, Hook, HttpResponseForbidden, HttpResponseOK,
   HttpResponseUnauthorized, IAppController, Post, Store, UseSessions
-} from '@foal/core';
-import { DatabaseSession, fetchUser } from '@foal/typeorm';
+} from 'foalts2-core';
+import { DatabaseSession, fetchUser } from 'foalts2-typeorm';
 import { createTestConnection, getTypeORMStorePath } from '../../../common';
 
 describe('Feature: Controlling access with administrators', () => {

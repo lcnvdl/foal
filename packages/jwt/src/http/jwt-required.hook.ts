@@ -1,5 +1,5 @@
 // 3p
-import { HookDecorator } from '@foal/core';
+import { HookDecorator } from 'foalts2-core';
 
 // FoalTS
 import { JWT, JWTOptions, VerifyOptions } from './jwt.hook';

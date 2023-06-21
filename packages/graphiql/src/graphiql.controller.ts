@@ -4,7 +4,7 @@ import { join } from 'path';
 import { promisify } from 'util';
 
 // 3p
-import { Context, Get, HttpResponseMovedPermanently, HttpResponseOK, renderToString } from '@foal/core';
+import { Context, Get, HttpResponseMovedPermanently, HttpResponseOK, renderToString } from 'foalts2-core';
 
 export interface GraphiQLControllerOptions {
   query?: string;

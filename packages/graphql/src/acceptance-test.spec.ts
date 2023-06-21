@@ -1,4 +1,4 @@
-// This acceptance test is not located in the @foal/acceptance-test package because of a bug
+// This acceptance test is not located in the foalts2-acceptance-test package because of a bug
 // with lerna and peerDependencies. If we move the test to this package, we get the below error.
 //
 // Error: Cannot use GraphQLSchema "[object GraphQLSchema]" from another module or realm.
@@ -20,7 +20,7 @@ import { existsSync, mkdirSync, rmdirSync, unlinkSync, writeFileSync } from 'fs'
 import { get, Server } from 'http';
 
 // 3p
-import { Config, controller, createApp, dependency } from '@foal/core';
+import { Config, controller, createApp, dependency } from 'foalts2-core';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { ApolloClient } from 'apollo-client';
 import { HttpLink } from 'apollo-link-http';

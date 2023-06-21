@@ -12,8 +12,8 @@ import {
   HttpResponseNotFound,
   HttpResponseOK,
   // Log,
-} from '@foal/core';
-import { getSecretOrPrivateKey, JWTRequired } from '@foal/jwt';
+} from 'foalts2-core';
+import { getSecretOrPrivateKey, JWTRequired } from 'foalts2-jwt';
 
 describe('Feature: Setting up a simple application', () => {
 

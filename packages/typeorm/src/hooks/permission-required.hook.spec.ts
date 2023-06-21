@@ -11,7 +11,7 @@ import {
   HttpResponseRedirect,
   HttpResponseUnauthorized,
   ServiceManager,
-} from '@foal/core';
+} from 'foalts2-core';
 
 // FoalTS
 import { Permission, UserWithPermissions } from '../entities';

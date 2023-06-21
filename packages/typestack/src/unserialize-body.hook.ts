@@ -1,4 +1,4 @@
-import { Class, Hook, HookDecorator, HttpResponseBadRequest } from '@foal/core';
+import { Class, Hook, HookDecorator, HttpResponseBadRequest } from 'foalts2-core';
 import { ClassTransformOptions, plainToClass } from 'class-transformer';
 
 export function UnserializeBody(cls: Class, options?: ClassTransformOptions): HookDecorator {

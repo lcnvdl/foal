@@ -24,7 +24,7 @@ import {
   Patch,
   Post,
   ValidateBody
-} from '@foal/core';
+} from 'foalts2-core';
 
 describe('FoalTS', () => {
   it('should handle controller inheritance properly ("this" reference, OpenAPI, etc).', async () => {

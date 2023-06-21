@@ -39,7 +39,7 @@ export function createController({ name, register }: { name: string, register: b
       .addOrExtendNamedImportIn(
         parentControllerPath,
         'controller',
-        '@foal/core',
+        'foalts2-core',
         { logs: false }
       )
       .addOrExtendNamedImportIn(

@@ -1,5 +1,5 @@
 // std
-import { ServiceManager } from '@foal/core';
+import { ServiceManager } from 'foalts2-core';
 import { notStrictEqual, ok, strictEqual } from 'assert';
 
 // 3p

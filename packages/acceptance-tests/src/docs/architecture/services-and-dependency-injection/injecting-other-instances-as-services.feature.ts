@@ -2,8 +2,8 @@
 import * as request from 'supertest';
 
 // FoalTS
-import { controller, createApp, dependency, Get, HttpResponseOK, IAppController, ServiceManager } from '@foal/core';
-import { Connection, Entity, getConnection, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { controller, createApp, dependency, Get, HttpResponseOK, IAppController, ServiceManager } from 'foalts2-core';
+import { Connection, Entity, getConnection, PrimaryGeneratedColumn } from 'typeorm';
 import { createTestConnection } from '../../../common';
 
 describe('Feature: Injecting other instances as services', () => {

@@ -14,7 +14,7 @@ import {
   HttpResponseUnauthorized,
   IApiSecurityScheme,
   ServiceManager
-} from '@foal/core';
+} from 'foalts2-core';
 import { decode, verify } from 'jsonwebtoken';
 
 // FoalTS

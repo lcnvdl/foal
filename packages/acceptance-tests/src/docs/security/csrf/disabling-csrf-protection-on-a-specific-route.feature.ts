@@ -5,8 +5,8 @@ import { } from 'assert';
 import * as request from 'supertest';
 
 // FoalTS
-import { Config, controller, createApp, Get, HttpResponseOK, Post, UseSessions } from '@foal/core';
-import { DatabaseSession } from '@foal/typeorm';
+import { Config, controller, createApp, Get, HttpResponseOK, Post, UseSessions } from 'foalts2-core';
+import { DatabaseSession } from 'foalts2-typeorm';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath, readCookie, writeCookie } from '../../../common';
 
 describe('Feature: Disabling CSRF protection on a specific route.', () => {

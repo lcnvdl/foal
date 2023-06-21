@@ -6,7 +6,7 @@ import {
   Context, createController, getHttpMethod, getPath,
   isHttpResponseBadRequest,
   isHttpResponseOK
-} from '@foal/core';
+} from 'foalts2-core';
 import { buildSchema, GraphQLObjectType, GraphQLSchema, GraphQLString } from 'graphql';
 
 // App

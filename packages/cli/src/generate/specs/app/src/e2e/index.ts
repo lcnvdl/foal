@@ -1,5 +1,5 @@
 // 3p
-import { createApp } from '@foal/core';
+import { createApp } from 'foalts2-core';
 import * as request from 'supertest';
 import { getConnection } from 'typeorm';
 

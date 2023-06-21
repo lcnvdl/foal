@@ -22,7 +22,7 @@ import {
   isHttpResponseForbidden,
   isHttpResponseUnauthorized,
   ServiceManager
-} from '@foal/core';
+} from 'foalts2-core';
 import { sign } from 'jsonwebtoken';
 
 // FoalTS

@@ -3,7 +3,7 @@ import { deepStrictEqual, strictEqual } from 'assert';
 import { Server } from 'http';
 
 // 3p
-import { Config, Context, createApp, createService, Get, HttpResponseBadRequest, HttpResponseOK } from '@foal/core';
+import { Config, Context, createApp, createService, Get, HttpResponseBadRequest, HttpResponseOK } from 'foalts2-core';
 import { SocialTokens } from './abstract-provider.service';
 import { LinkedInProvider } from './linkedin-provider.service';
 import { UserInfoError } from './user-info.error';

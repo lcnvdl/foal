@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // FoalTS
-import { getMetadata } from '@foal/core';
+import { getMetadata } from 'foalts2-core';
 
 // FoalTS
 import { wsController } from './ws-controller';

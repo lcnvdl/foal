@@ -1,7 +1,7 @@
 import {
   Context, controller, Get, render, Session, UseSessions
-} from '@foal/core';
-import { TypeORMStore } from '@foal/typeorm';
+} from 'foalts2-core';
+import { TypeORMStore } from 'foalts2-typeorm';
 
 import { AuthController, OpenapiController, ProfileController, GraphqlApiController, GraphiQL2Controller } from './controllers';
 

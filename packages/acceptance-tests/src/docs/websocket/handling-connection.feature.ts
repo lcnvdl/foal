@@ -1,5 +1,5 @@
 // FoalTS
-import { SocketIOController, WebsocketContext } from '@foal/socket.io';
+import { SocketIOController, WebsocketContext } from 'foalts2-socket.io';
 
 describe('Feature: Handling connection', () => {
 

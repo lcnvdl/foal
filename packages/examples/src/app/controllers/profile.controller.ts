@@ -1,8 +1,8 @@
 import {
   ApiInfo, ApiServer, Context, dependency, Get, Hook, HttpResponseNotFound, HttpResponseRedirect, Post, render
-} from '@foal/core';
-import { Disk, ValidateMultipartFormDataBody } from '@foal/storage';
-import { getRepository } from '@foal/typeorm/node_modules/typeorm';
+} from 'foalts2-core';
+import { Disk, ValidateMultipartFormDataBody } from 'foalts2-storage';
+import { getRepository } from 'typeorm';
 
 import { User } from '../entities';
 

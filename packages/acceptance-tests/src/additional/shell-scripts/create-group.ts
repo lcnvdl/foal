@@ -1,5 +1,5 @@
 // 3p
-import { Group, Permission } from '@foal/typeorm';
+import { Group, Permission } from 'foalts2-typeorm';
 import { createConnection, getConnection, getManager, getRepository } from 'typeorm';
 
 export const schema = {

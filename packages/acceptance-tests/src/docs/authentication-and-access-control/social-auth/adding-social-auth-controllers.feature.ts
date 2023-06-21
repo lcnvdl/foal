@@ -1,6 +1,6 @@
 // FoalTS
-import { Context, dependency, Get } from '@foal/core';
-import { GoogleProvider } from '@foal/social';
+import { Context, dependency, Get } from 'foalts2-core';
+import { GoogleProvider } from 'foalts2-social';
 
 describe('Feature: Adding social auth controllers', () => {
 

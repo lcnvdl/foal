@@ -1,8 +1,8 @@
 // 3p
-import { Connection, createConnection } from '@foal/typeorm/node_modules/typeorm';
+import { Connection, createConnection } from 'typeorm';
 
 // FoalTS
-import { Class } from '@foal/core';
+import { Class } from 'foalts2-core';
 
 export function createTestConnection(entities: Class[], name?: string): Promise<Connection> {
   return createConnection({

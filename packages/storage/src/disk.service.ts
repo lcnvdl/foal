@@ -3,7 +3,7 @@ import { basename, join } from 'path';
 import { Readable } from 'stream';
 
 // 3p
-import { HttpResponse, HttpResponseOK } from '@foal/core';
+import { HttpResponse, HttpResponseOK } from 'foalts2-core';
 import { getType } from 'mime';
 
 type Type<C extends 'buffer'|'stream'> =
@@ -29,7 +29,7 @@ export class FileDoesNotExist extends Error {
 /**
  * Check if an object is an instance of FileDoesNotExist.
  *
- * This function is a help when you have several packages using @foal/storage.
+ * This function is a help when you have several packages using foalts2-storage.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this

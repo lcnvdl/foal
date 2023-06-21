@@ -2,7 +2,7 @@
 import { notStrictEqual } from 'assert';
 
 // 3p
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import * as request from 'supertest';
 
 // FoalTS
@@ -24,8 +24,8 @@ import {
   UseSessions,
   ValidateBody,
   verifyPassword
-} from '@foal/core';
-import { DatabaseSession, fetchUser } from '@foal/typeorm';
+} from 'foalts2-core';
+import { DatabaseSession, fetchUser } from 'foalts2-typeorm';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath } from '../../../common';
 
 describe('Feature: Authenticating users in a stateful SPA using the `Authorization` header', () => {

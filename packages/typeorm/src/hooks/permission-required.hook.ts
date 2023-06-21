@@ -5,7 +5,7 @@ import {
   HttpResponseForbidden,
   HttpResponseRedirect,
   HttpResponseUnauthorized,
-} from '@foal/core';
+} from 'foalts2-core';
 
 /**
  * Hook factory to check if a user can access a route based on their permissions.

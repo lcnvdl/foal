@@ -2,7 +2,7 @@
 import * as request from 'supertest';
 
 // FoalTS
-import { createApp, dependency, Get, HttpResponseOK } from '@foal/core';
+import { createApp, dependency, Get, HttpResponseOK } from 'foalts2-core';
 import { strictEqual } from 'assert';
 
 describe('Feature: Creating a service', () => {

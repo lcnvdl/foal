@@ -84,7 +84,7 @@ export class FileSystem {
    * Changes the current working directory to the project root
    * directory.
    *
-   * It searches for the closer package.json containing @foal/core
+   * It searches for the closer package.json containing foalts2-core
    * as dependency.
    *
    * @returns {this}
@@ -113,9 +113,9 @@ export class FileSystem {
       );
     }
 
-    if (!pkg.dependencies || !pkg.dependencies['@foal/core']) {
+    if (!pkg.dependencies || !pkg.dependencies['foalts2-core']) {
       throw new ClientError(
-        'This project is not a FoalTS project. The dependency @foal/core is missing in package.json.'
+        'This project is not a FoalTS project. The dependency foalts2-core is missing in package.json.'
       );
     }
 

@@ -1,4 +1,4 @@
-import { InvalidTokenError } from '@foal/jwt';
+import { InvalidTokenError } from 'foalts2-jwt';
 // tslint:disable-next-line:no-var-requires
 const jwksClient = require('jwks-rsa');
 

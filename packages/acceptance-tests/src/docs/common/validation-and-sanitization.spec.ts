@@ -1,6 +1,6 @@
 
 // 3p
-import { Contains, Length } from '@foal/typestack/node_modules/class-validator';
+import { Contains, Length } from 'foalts2-typestack/node_modules/class-validator';
 import * as request from 'supertest';
 
 // FoalTS
@@ -16,8 +16,8 @@ import {
   ValidateHeader,
   ValidatePathParam,
   ValidateQueryParam
-} from '@foal/core';
-import { ValidateBody as ValidateBodyFromClass} from '@foal/typestack';
+} from 'foalts2-core';
+import { ValidateBody as ValidateBodyFromClass} from 'foalts2-typestack';
 
 describe('[Docs] Input Validation & Sanitization', () => {
 

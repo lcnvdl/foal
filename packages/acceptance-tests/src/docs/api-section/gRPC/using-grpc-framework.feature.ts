@@ -8,7 +8,7 @@ import * as grpc from '@grpc/grpc-js';
 import * as protoLoader  from '@grpc/proto-loader';
 
 // FoalTS
-import { createApp, dependency } from '@foal/core';
+import { createApp, dependency } from 'foalts2-core';
 
 describe('Feature: Using gRPC framework', () => {
 

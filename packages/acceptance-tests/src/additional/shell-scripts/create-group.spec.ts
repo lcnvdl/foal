@@ -6,7 +6,7 @@ import * as Ajv from 'ajv';
 import { createConnection, getConnection, getRepository } from 'typeorm';
 
 // FoalTS
-import { Group, Permission } from '@foal/typeorm';
+import { Group, Permission } from 'foalts2-typeorm';
 import { main as createGroup, schema } from './create-group';
 
 describe('[Shell scripts] create-perm', () => {

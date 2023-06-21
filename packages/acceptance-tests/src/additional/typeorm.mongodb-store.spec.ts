@@ -19,13 +19,13 @@ import {
   UseSessions,
   ValidateBody,
   verifyPassword
-} from '@foal/core';
-import { MongoDBStore } from '@foal/mongodb';
+} from 'foalts2-core';
+import { MongoDBStore } from 'foalts2-mongodb';
 import { MongoClient } from 'mongodb';
 import * as request from 'supertest';
 
 // FoalTS
-import { fetchMongoDBUser } from '@foal/typeorm';
+import { fetchMongoDBUser } from 'foalts2-typeorm';
 import {
   Column,
   Connection,
@@ -34,7 +34,7 @@ import {
   getMongoRepository,
   ObjectID,
   ObjectIdColumn
-} from '@foal/typeorm/node_modules/typeorm';
+} from 'typeorm';
 
 describe('[Sample] TypeORM & MongoDB Store', async () => {
 

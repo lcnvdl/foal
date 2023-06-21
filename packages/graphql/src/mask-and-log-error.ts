@@ -1,4 +1,4 @@
-import { Config } from '@foal/core';
+import { Config } from 'foalts2-core';
 
 /**
  * Log errors and mask them if the configuration key "settings.debug" is not true.

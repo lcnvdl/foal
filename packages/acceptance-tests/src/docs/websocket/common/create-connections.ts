@@ -6,8 +6,8 @@ import { AddressInfo } from 'net';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { Class, createApp, ServiceManager } from '@foal/core';
-import { SocketIOController } from '@foal/socket.io';
+import { Class, createApp, ServiceManager } from 'foalts2-core';
+import { SocketIOController } from 'foalts2-socket.io';
 
 export function createConnections(wsCtrlClass: Class<SocketIOController>, appCtrlClass?: Class): Promise<{ httpServer: ReturnType<typeof createServer>, socket: ReturnType<typeof io>, controller: SocketIOController }> {
   return new Promise(async resolve => {

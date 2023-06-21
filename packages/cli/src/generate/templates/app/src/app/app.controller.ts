@@ -1,4 +1,4 @@
-import { controller, IAppController } from '@foal/core';
+import { controller, IAppController } from 'foalts2-core';
 import { createConnection } from 'typeorm';
 
 import { ApiController } from './controllers';

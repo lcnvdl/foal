@@ -1,5 +1,5 @@
 // 3p
-import { Context, Get, HttpResponse, HttpResponseBadRequest, HttpResponseOK, Post, } from '@foal/core';
+import { Context, Get, HttpResponse, HttpResponseBadRequest, HttpResponseOK, Post, } from 'foalts2-core';
 import * as Ajv from 'ajv';
 import { graphql } from 'graphql';
 

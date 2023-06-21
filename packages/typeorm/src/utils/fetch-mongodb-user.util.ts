@@ -1,5 +1,5 @@
 // 3p
-import { Class, FetchUser } from '@foal/core';
+import { Class, FetchUser } from 'foalts2-core';
 // tslint:disable-next-line:no-unused-variable
 import { getMongoRepository, ObjectID } from 'typeorm';
 
@@ -9,9 +9,9 @@ import { getMongoRepository, ObjectID } from 'typeorm';
  * It returns undefined if no entity can be found.
  *
  * This function is usually used by:
- * - UseSessions (@foal/core)
- * - JWTRequired (@foal/jwt)
- * - JWTOptional (@foal/jwt)
+ * - UseSessions (foalts2-core)
+ * - JWTRequired (foalts2-jwt)
+ * - JWTOptional (foalts2-jwt)
  *
  * @export
  * @param {(Class<{ id: ObjectID }|{ _id: ObjectID }>)} userEntityClass - The entity class.

@@ -3,7 +3,7 @@ import { promisify } from 'util';
 import { strictEqual } from 'assert';
 
 // 3p
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import { decode, sign } from 'jsonwebtoken';
 
 // FoalTS
@@ -14,11 +14,11 @@ import {
   dependency,
   Get,
   HttpResponseRedirect,
-} from '@foal/core';
-import { GoogleProvider } from '@foal/social';
-import { getSecretOrPrivateKey, setAuthCookie } from '@foal/jwt';
+} from 'foalts2-core';
+import { GoogleProvider } from 'foalts2-social';
+import { getSecretOrPrivateKey, setAuthCookie } from 'foalts2-jwt';
 import { closeTestConnection, createTestConnection } from '../../../common';
-import { DatabaseSession } from '@foal/typeorm';
+import { DatabaseSession } from 'foalts2-typeorm';
 
 describe('Feature: Using social auth with JWT', () => {
 

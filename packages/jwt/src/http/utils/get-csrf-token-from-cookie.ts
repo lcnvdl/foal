@@ -1,5 +1,5 @@
 // std
-import { Config, Context } from '@foal/core';
+import { Config, Context } from 'foalts2-core';
 
 // FoalTS
 import { JWT_DEFAULT_CSRF_COOKIE_NAME } from '../constants';

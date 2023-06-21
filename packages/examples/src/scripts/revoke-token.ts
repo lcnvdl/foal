@@ -1,7 +1,7 @@
 // 3p
-import { createService } from '@foal/core';
-import { TypeORMStore } from '@foal/typeorm';
-import { createConnection } from '@foal/typeorm/node_modules/typeorm';
+import { createService } from 'foalts2-core';
+import { TypeORMStore } from 'foalts2-typeorm';
+import { createConnection } from 'typeorm';
 
 export const schema = {
   additionalProperties: false,

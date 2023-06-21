@@ -3,7 +3,7 @@ import { URL, URLSearchParams } from 'url';
 import * as crypto from 'crypto';
 
 // 3p
-import { Config, Context, generateToken, HttpResponseRedirect, convertBase64ToBase64url } from '@foal/core';
+import { Config, Context, generateToken, HttpResponseRedirect, convertBase64ToBase64url } from 'foalts2-core';
 import * as fetch from 'node-fetch';
 
 /**

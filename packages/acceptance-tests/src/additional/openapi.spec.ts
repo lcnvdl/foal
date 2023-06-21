@@ -11,7 +11,7 @@ import {
   ApiDefineSchema, ApiDefineSecurityScheme, ApiDefineTag, ApiDeprecated, ApiExternalDoc, ApiInfo,
   ApiOperation, ApiOperationDescription, ApiOperationId, ApiOperationSummary, ApiParameter, ApiRequestBody,
   ApiResponse, ApiSecurityRequirement, ApiServer, ApiUseTag, controller, createOpenApiDocument, Delete, Get, Post, Put
-} from '@foal/core';
+} from 'foalts2-core';
 
 it('OpenAPI', async () => {
 

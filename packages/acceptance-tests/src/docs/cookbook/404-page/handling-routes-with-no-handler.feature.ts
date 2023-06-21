@@ -5,7 +5,7 @@ import { } from 'assert';
 import * as request from 'supertest';
 
 // FoalTS
-import { All, createApp, Get, HttpResponseNotFound, HttpResponseOK } from '@foal/core';
+import { All, createApp, Get, HttpResponseNotFound, HttpResponseOK } from 'foalts2-core';
 
 describe('Feature: Handling routes with no handler', () => {
 

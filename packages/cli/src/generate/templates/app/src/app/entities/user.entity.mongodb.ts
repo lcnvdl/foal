@@ -1,4 +1,4 @@
-// import { hashPassword } from '@foal/core';
+// import { hashPassword } from 'foalts2-core';
 import { /*Column, */Entity, ObjectID, ObjectIdColumn } from 'typeorm';
 
 @Entity()

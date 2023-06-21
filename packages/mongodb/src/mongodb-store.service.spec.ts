@@ -9,7 +9,7 @@ import {
   createSession,
   SessionAlreadyExists,
   SessionState
-} from '@foal/core';
+} from 'foalts2-core';
 import { MongoClient } from 'mongodb';
 
 // FoalTS

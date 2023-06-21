@@ -2,7 +2,7 @@
 import { ok, strictEqual, deepStrictEqual } from 'assert';
 
 // 3p
-import { ServiceManager } from '@foal/core';
+import { ServiceManager } from 'foalts2-core';
 
 // FoalTS
 import { ValidatePayload } from './validate-payload.hook';

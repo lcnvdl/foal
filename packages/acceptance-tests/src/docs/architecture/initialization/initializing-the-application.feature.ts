@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // FoalTS
-import { createApp, dependency } from '@foal/core';
+import { createApp, dependency } from 'foalts2-core';
 
 describe('Feature: Initializing the application', () => {
 

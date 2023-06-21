@@ -11,7 +11,7 @@ import {
   isHttpResponse,
   isHttpResponseBadRequest,
   ServiceManager
-} from '@foal/core';
+} from 'foalts2-core';
 
 describe('Feature: Testing hooks', () => {
 

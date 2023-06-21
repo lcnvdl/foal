@@ -1,5 +1,5 @@
 // 3p
-// import { hashPassword } from '@foal/core';
+// import { hashPassword } from 'foalts2-core';
 import { createConnection } from 'typeorm';
 
 // App

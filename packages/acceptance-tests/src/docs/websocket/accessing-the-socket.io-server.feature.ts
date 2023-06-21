@@ -8,9 +8,9 @@ import { io } from 'socket.io-client';
 import * as superagent from 'superagent';
 
 // FoalTS
-import { ISocketIOController, SocketIOController, WsServer } from '@foal/socket.io';
+import { ISocketIOController, SocketIOController, WsServer } from 'foalts2-socket.io';
 import { closeConnections, createConnections } from './common';
-import { dependency, Post, HttpResponseOK, controller as httpController } from '@foal/core';
+import { dependency, Post, HttpResponseOK, controller as httpController } from 'foalts2-core';
 
 describe('Feature: Accessing the socket.io server', () => {
 

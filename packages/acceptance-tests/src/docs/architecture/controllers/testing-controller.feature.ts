@@ -2,8 +2,8 @@
 import { strictEqual } from 'assert';
 
 // FoalTS
-import { Context, createController, Get, HttpResponseOK, isHttpResponseOK } from '@foal/core';
-import { JWTRequired } from '@foal/jwt';
+import { Context, createController, Get, HttpResponseOK, isHttpResponseOK } from 'foalts2-core';
+import { JWTRequired } from 'foalts2-jwt';
 
 describe('Feature: Testing controllers', () => {
 

@@ -3,8 +3,8 @@ import { rejects, strictEqual } from 'assert';
 import { Readable } from 'stream';
 
 // 3p
-import { Config, ConfigNotFoundError, ConfigTypeError, createService, streamToBuffer } from '@foal/core';
-import { FileDoesNotExist } from '@foal/storage';
+import { Config, ConfigNotFoundError, ConfigTypeError, createService, streamToBuffer } from 'foalts2-core';
+import { FileDoesNotExist } from 'foalts2-storage';
 import * as S3 from 'aws-sdk/clients/s3';
 
 // FoalTS

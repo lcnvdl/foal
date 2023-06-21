@@ -1,5 +1,5 @@
 // 3p
-import { ServiceManager } from '@foal/core';
+import { ServiceManager } from 'foalts2-core';
 
 // FoalTS
 import {

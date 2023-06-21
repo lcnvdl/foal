@@ -4,8 +4,8 @@ import * as request from 'supertest';
 // FoalTS
 import {
   Config, controller, createApp, Get, HttpResponseOK, IAppController, UseSessions
-} from '@foal/core';
-import { DatabaseSession } from '@foal/typeorm';
+} from 'foalts2-core';
+import { DatabaseSession } from 'foalts2-typeorm';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath } from '../../../common';
 
 describe('Feature: Requiring the session cookie', async () => {

@@ -11,7 +11,7 @@ import {
   HttpResponseBadRequest,
   HttpResponseOK,
   Post,
-} from '@foal/core';
+} from 'foalts2-core';
 
 describe('Feature: Building custom hooks', () => {
 

@@ -1,4 +1,4 @@
-import { Class, Hook, HookDecorator, HttpResponseBadRequest } from '@foal/core';
+import { Class, Hook, HookDecorator, HttpResponseBadRequest } from 'foalts2-core';
 import { ClassTransformOptions, plainToClass } from 'class-transformer';
 import { validate, ValidatorOptions } from 'class-validator';
 

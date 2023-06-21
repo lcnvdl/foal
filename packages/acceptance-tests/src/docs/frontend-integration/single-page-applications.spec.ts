@@ -5,7 +5,7 @@ import { join } from 'path';
 import * as request from 'supertest';
 
 // FoalTS
-import { Context, controller, createApp, Get, HttpResponseNotFound, render } from '@foal/core';
+import { Context, controller, createApp, Get, HttpResponseNotFound, render } from 'foalts2-core';
 
 describe('[Docs] Frontend Integration > Single Page Applications (SPA)', () => {
 

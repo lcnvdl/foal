@@ -1,5 +1,5 @@
 // 3p
-import { createConnection, getManager } from '@foal/typeorm/node_modules/typeorm';
+import { createConnection, getManager } from 'typeorm';
 
 // App
 import { Permission, User } from '../app/entities';

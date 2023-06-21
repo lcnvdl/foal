@@ -1,5 +1,5 @@
 // 3p
-import { Class, dependency, ServiceManager } from '@foal/core';
+import { Class, dependency, ServiceManager } from 'foalts2-core';
 import { Server, ServerOptions } from 'socket.io';
 
 // FoalTS

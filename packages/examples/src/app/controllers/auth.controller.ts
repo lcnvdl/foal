@@ -7,9 +7,9 @@ import {
   HttpResponseRedirect,
   Session,
   UseSessions,
-} from '@foal/core';
-import { FacebookProvider, GithubProvider, GoogleProvider, LinkedInProvider, TwitterProvider } from '@foal/social';
-import { TypeORMStore } from '@foal/typeorm';
+} from 'foalts2-core';
+import { FacebookProvider, GithubProvider, GoogleProvider, LinkedInProvider, TwitterProvider } from 'foalts2-social';
+import { TypeORMStore } from 'foalts2-typeorm';
 
 @UseSessions({ cookie: true, store: TypeORMStore })
 export class AuthController {

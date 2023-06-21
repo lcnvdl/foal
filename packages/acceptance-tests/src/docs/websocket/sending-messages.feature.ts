@@ -6,7 +6,7 @@ import * as http from 'http';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { EventName, ISocketIOController, SocketIOController, WebsocketContext, WebsocketResponse, wsController } from '@foal/socket.io';
+import { EventName, ISocketIOController, SocketIOController, WebsocketContext, WebsocketResponse, wsController } from 'foalts2-socket.io';
 import { closeConnections, createConnections, sleep } from './common';
 
 describe('Feature: Sending messages', () => {

@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // FoalTS
-import { Context, getHookFunction, Hook, ServiceManager } from '@foal/core';
+import { Context, getHookFunction, Hook, ServiceManager } from 'foalts2-core';
 
 describe('Feature: Mocking services in hooks', () => {
 

@@ -6,7 +6,7 @@ import { join } from 'path';
 // 3p
 import {
   Config, Context, createApp, createService, getApiRequestBody, HttpResponseOK, IApiRequestBody, Post
-} from '@foal/core';
+} from 'foalts2-core';
 import * as request from 'supertest';
 
 // FoalTS
@@ -622,7 +622,7 @@ describe('ValidateMultipartFormDataBody', () => {
     });
 
     it('should not kill the process if Disk.write throws an error.', async () => {
-      Config.set('settings.disk.driver', '@foal/internal-test');
+      Config.set('settings.disk.driver', 'foalts2-internal-test');
 
       const actual: { body: any } = { body: null };
       const app = await createAppWithHook({

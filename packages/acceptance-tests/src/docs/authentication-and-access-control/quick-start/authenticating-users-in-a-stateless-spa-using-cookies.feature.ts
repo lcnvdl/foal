@@ -2,7 +2,7 @@
 import { promisify } from 'util';
 
 // 3p
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import { sign } from 'jsonwebtoken';
 import * as request from 'supertest';
 
@@ -20,8 +20,8 @@ import {
   Post,
   ValidateBody,
   verifyPassword
-} from '@foal/core';
-import { getSecretOrPrivateKey, JWTRequired, removeAuthCookie, setAuthCookie } from '@foal/jwt';
+} from 'foalts2-core';
+import { getSecretOrPrivateKey, JWTRequired, removeAuthCookie, setAuthCookie } from 'foalts2-jwt';
 import { closeTestConnection, createTestConnection, readCookie, writeCookie } from '../../../common';
 
 describe('Feature: Authenticating users in a stateless SPA using cookies', () => {

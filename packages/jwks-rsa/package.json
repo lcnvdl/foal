@@ -46,16 +46,13 @@
   "dependencies": {
     "jwks-rsa": "~1.12.3"
   },
-  "peerDependencies": {
-    "foalts2-jwt": "^2.0.0"
-  },
   "devDependencies": {
-    "foalts2-core": "^2.12.0",
-    "foalts2-jwt": "^2.12.0",
-    "@types/mocha": "7.0.2",
+    "@types/mocha": "^10.0.1",
     "@types/node": "10.17.24",
-    "mocha": "~8.3.0",
-    "rimraf": "~2.6.2",
+    "foalts2-core": "^2.12.0",
+    "foalts2-jwt": "^2.12.1",
+    "mocha": "^10.2.0",
+    "rimraf": "^5.0.1",
     "ts-node": "~9.0.0",
     "typescript": "~4.0.2"
   }

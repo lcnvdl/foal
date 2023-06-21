@@ -1,5 +1,5 @@
 // 3p
-import { Config, createApp, displayServerURL } from '@foal/core';
+import { Config, createApp, displayServerURL } from 'foalts2-core';
 import * as express from 'express';
 import * as rateLimit from 'express-rate-limit';
 

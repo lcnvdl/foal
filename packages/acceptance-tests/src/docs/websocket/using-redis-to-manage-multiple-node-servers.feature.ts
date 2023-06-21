@@ -9,8 +9,8 @@ import { createAdapter } from '@socket.io/redis-adapter';
 import { createClient } from 'redis';
 
 // FoalTS
-import { createApp, ServiceManager } from '@foal/core';
-import { EventName, SocketIOController, WebsocketContext, WebsocketResponse } from '@foal/socket.io';
+import { createApp, ServiceManager } from 'foalts2-core';
+import { EventName, SocketIOController, WebsocketContext, WebsocketResponse } from 'foalts2-socket.io';
 import { closeConnections } from './common';
 
 describe('Feature: Using redis to manage multiple node servers', () => {

@@ -6,9 +6,9 @@ import * as http from 'http';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { EventName, ISocketIOController, renderWebsocketError, SocketIOController, WebsocketContext, WebsocketErrorResponse } from '@foal/socket.io';
+import { EventName, ISocketIOController, renderWebsocketError, SocketIOController, WebsocketContext, WebsocketErrorResponse } from 'foalts2-socket.io';
 import { closeConnections, createConnections } from './common';
-import { Config } from '@foal/core';
+import { Config } from 'foalts2-core';
 
 describe('Feature: Customizing the error handler', () => {
 

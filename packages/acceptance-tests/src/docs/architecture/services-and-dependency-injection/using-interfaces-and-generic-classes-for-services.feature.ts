@@ -5,8 +5,8 @@ import { deepStrictEqual } from 'assert';
 import * as request from 'supertest';
 
 // FoalTS
-import { controller, createApp, Dependency, Get, HttpResponseOK, IAppController, ServiceManager } from '@foal/core';
-import { Entity, getConnection, PrimaryGeneratedColumn, Repository } from '@foal/typeorm/node_modules/typeorm';
+import { controller, createApp, Dependency, Get, HttpResponseOK, IAppController, ServiceManager } from 'foalts2-core';
+import { Entity, getConnection, PrimaryGeneratedColumn, Repository } from 'typeorm';
 import { createTestConnection } from '../../../common';
 
 describe('Feature: Using interfaces and generic classes for services', () => {

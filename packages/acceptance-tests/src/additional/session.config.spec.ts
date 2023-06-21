@@ -11,7 +11,7 @@ import {
   Session,
   SessionStore,
   UseSessions,
-} from '@foal/core';
+} from 'foalts2-core';
 
 import { strictEqual } from 'assert';
 import * as request from 'supertest';
@@ -22,7 +22,7 @@ describe('The session store', () => {
 
   beforeEach(() => {
     // Use ".." to remove the "build/" directory.
-    Config.set('settings.session.store', './../node_modules/@foal/redis');
+    Config.set('settings.session.store', './../node_modules/foalts2-redis');
     Config.set('settings.session.secret', 'secret');
     Config.set('settings.redis.uri', 'redis://localhost:6380');
     serviceManager = new ServiceManager();

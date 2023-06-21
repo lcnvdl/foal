@@ -92,7 +92,7 @@ describe('FileSystem', () => {
         'test-generators/subdir/package.json',
         JSON.stringify({
           dependencies: {
-            '@foal/core': 'versionNumber'
+            'foalts2-core': 'versionNumber'
           }
         }),
         'utf8'
@@ -124,7 +124,7 @@ describe('FileSystem', () => {
       }
     });
 
-    it('should throw a ClienError if the package.json found does not have @foal/core as dependency (no deps).', () => {
+    it('should throw a ClienError if the package.json found does not have foalts2-core as dependency (no deps).', () => {
       writeFileSync(
         'test-generators/subdir/package.json',
         JSON.stringify({}),
@@ -141,12 +141,12 @@ describe('FileSystem', () => {
         }
         strictEqual(
           error.message,
-          'This project is not a FoalTS project. The dependency @foal/core is missing in package.json.'
+          'This project is not a FoalTS project. The dependency foalts2-core is missing in package.json.'
         );
       }
     });
 
-    it('should throw a ClienError if the package.json found does not have @foal/core as dependency (>=1 dep).', () => {
+    it('should throw a ClienError if the package.json found does not have foalts2-core as dependency (>=1 dep).', () => {
       writeFileSync(
         'test-generators/subdir/package.json',
         JSON.stringify({
@@ -165,7 +165,7 @@ describe('FileSystem', () => {
         }
         strictEqual(
           error.message,
-          'This project is not a FoalTS project. The dependency @foal/core is missing in package.json.'
+          'This project is not a FoalTS project. The dependency foalts2-core is missing in package.json.'
         );
       }
     });
@@ -854,7 +854,7 @@ describe('FileSystem', () => {
       initialPkg = readFileSync('package.json');
       writeFileSync('package.json', JSON.stringify({
         dependencies: {
-          '@foal/core': 'hello',
+          'foalts2-core': 'hello',
           'bar': 'world'
         }
       }), 'utf8');
@@ -891,7 +891,7 @@ describe('FileSystem', () => {
       initialPkg = readFileSync('package.json');
       writeFileSync('package.json', JSON.stringify({
         dependencies: {
-          '@foal/core': '~1.0.1',
+          'foalts2-core': '~1.0.1',
           'bar': '~2.2.0'
         }
       }), 'utf8');
@@ -907,7 +907,7 @@ describe('FileSystem', () => {
       deepStrictEqual(
         fs.getProjectDependencies(),
         [
-          { name: '@foal/core', version: '~1.0.1' },
+          { name: 'foalts2-core', version: '~1.0.1' },
           { name: 'bar', version: '~2.2.0' }
         ]
       );
@@ -930,10 +930,10 @@ describe('FileSystem', () => {
       initialPkg = readFileSync('package.json');
       writeFileSync('package.json', JSON.stringify({
         dependencies: {
-          '@foal/core': '0.0.0',
+          'foalts2-core': '0.0.0',
         },
         devDependencies: {
-          '@foal/cli': '~1.0.1',
+          'foalts2-cli': '~1.0.1',
           'bar': '~2.2.0'
         }
       }), 'utf8');
@@ -949,7 +949,7 @@ describe('FileSystem', () => {
       deepStrictEqual(
         fs.getProjectDevDependencies(),
         [
-          { name: '@foal/cli', version: '~1.0.1' },
+          { name: 'foalts2-cli', version: '~1.0.1' },
           { name: 'bar', version: '~2.2.0' }
         ]
       );

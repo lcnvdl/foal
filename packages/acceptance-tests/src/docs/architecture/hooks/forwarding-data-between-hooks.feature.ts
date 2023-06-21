@@ -2,7 +2,7 @@
 import * as request from 'supertest';
 
 // FoalTS
-import { Context, controller, createApp, Get, Hook, HttpResponseOK, UserRequired } from '@foal/core';
+import { Context, controller, createApp, Get, Hook, HttpResponseOK, UserRequired } from 'foalts2-core';
 
 describe('Feature: Forwarding data betweens hooks', () => {
 

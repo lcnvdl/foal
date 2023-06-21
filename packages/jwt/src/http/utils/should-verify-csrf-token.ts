@@ -1,4 +1,4 @@
-import { Config, Context } from '@foal/core';
+import { Config, Context } from 'foalts2-core';
 import { JWTOptions } from '../jwt.hook';
 
 export function shouldVerifyCsrfToken(request: Context['request'], options: JWTOptions): boolean {

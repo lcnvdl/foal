@@ -15,7 +15,7 @@ import {
   HttpResponseOK,
   isHttpResponseRedirect,
   Post
-} from '@foal/core';
+} from 'foalts2-core';
 
 // FoalTS
 import {

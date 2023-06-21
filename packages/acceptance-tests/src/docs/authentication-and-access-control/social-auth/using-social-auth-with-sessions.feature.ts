@@ -2,7 +2,7 @@
 import { deepStrictEqual, strictEqual } from 'assert';
 
 // 3p
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 // FoalTS
 import {
@@ -16,10 +16,10 @@ import {
   Session,
   Store,
   UseSessions,
-} from '@foal/core';
-import { GoogleProvider } from '@foal/social';
+} from 'foalts2-core';
+import { GoogleProvider } from 'foalts2-social';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath } from '../../../common';
-import { DatabaseSession } from '@foal/typeorm';
+import { DatabaseSession } from 'foalts2-typeorm';
 
 describe('Feature: Using social auth with sessions', () => {
 

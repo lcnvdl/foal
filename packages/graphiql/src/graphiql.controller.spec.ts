@@ -5,7 +5,7 @@ import { promisify } from 'util';
 import { join } from 'path';
 
 // 3p
-import { Context, getHttpMethod, getPath, isHttpResponseMovedPermanently, isHttpResponseOK, streamToBuffer } from '@foal/core';
+import { Context, getHttpMethod, getPath, isHttpResponseMovedPermanently, isHttpResponseOK, streamToBuffer } from 'foalts2-core';
 
 // FoalTS
 import { GraphiQLController } from './graphiql.controller';

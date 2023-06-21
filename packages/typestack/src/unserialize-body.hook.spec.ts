@@ -2,7 +2,7 @@
 import { deepStrictEqual, strictEqual } from 'assert';
 
 // 3p
-import { Context, getHookFunction, isHttpResponseBadRequest, ServiceManager } from '@foal/core';
+import { Context, getHookFunction, isHttpResponseBadRequest, ServiceManager } from 'foalts2-core';
 import { Expose } from 'class-transformer';
 
 // FoalTS

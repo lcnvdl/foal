@@ -2,8 +2,8 @@
 import { Readable } from 'stream';
 
 // 3p
-import { Config, generateToken } from '@foal/core';
-import { Disk, FileDoesNotExist } from '@foal/storage';
+import { Config, generateToken } from 'foalts2-core';
+import { Disk, FileDoesNotExist } from 'foalts2-storage';
 import * as S3 from 'aws-sdk/clients/s3';
 
 /**

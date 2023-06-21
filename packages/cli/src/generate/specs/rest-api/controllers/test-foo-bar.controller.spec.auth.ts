@@ -6,7 +6,7 @@ import {
   Context, createController, getHttpMethod, getPath,
   isHttpResponseCreated, isHttpResponseNoContent,
   isHttpResponseNotFound, isHttpResponseOK
-} from '@foal/core';
+} from 'foalts2-core';
 import { createConnection, getConnection, getRepository } from 'typeorm';
 
 // App

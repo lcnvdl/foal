@@ -6,8 +6,8 @@ import * as http from 'http';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { createApp, ServiceManager } from '@foal/core';
-import { EventName, ValidatePayload, SocketIOController, WebsocketContext, WebsocketResponse } from '@foal/socket.io';
+import { createApp, ServiceManager } from 'foalts2-core';
+import { EventName, ValidatePayload, SocketIOController, WebsocketContext, WebsocketResponse } from 'foalts2-socket.io';
 
 describe('Feature: Setting up a websocket connection', () => {
 

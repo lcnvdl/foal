@@ -5,7 +5,7 @@ import { pipeline, Readable } from 'stream';
 import { promisify } from 'util';
 
 // 3p
-import { Config, generateToken } from '@foal/core';
+import { Config, generateToken } from 'foalts2-core';
 
 // FoalTS
 import { Disk, FileDoesNotExist } from './disk.service';

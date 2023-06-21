@@ -2,7 +2,7 @@
 import { deepStrictEqual, doesNotThrow, notStrictEqual, strictEqual } from 'assert';
 
 // 3p
-import { Config} from '@foal/core';
+import { Config} from 'foalts2-core';
 
 // FoalTS
 import { renderWebsocketError } from './render-websocket-error';

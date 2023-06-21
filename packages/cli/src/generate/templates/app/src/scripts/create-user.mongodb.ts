@@ -1,5 +1,5 @@
 // 3p
-// import { isCommon } from '@foal/password';
+// import { isCommon } from 'foalts2-password';
 import { createConnection, getConnection, getMongoManager } from 'typeorm';
 
 // App

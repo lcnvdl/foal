@@ -65,7 +65,7 @@ export function createRestApi({ name, register, auth }: { name: string, register
       .addOrExtendNamedImportIn(
         parentControllerPath,
         'controller',
-        '@foal/core',
+        'foalts2-core',
         { logs: false }
       )
       .addOrExtendNamedImportIn(

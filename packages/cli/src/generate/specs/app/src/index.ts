@@ -1,7 +1,7 @@
 import 'source-map-support/register';
 
 // 3p
-import { Config, createApp, displayServerURL } from '@foal/core';
+import { Config, createApp, displayServerURL } from 'foalts2-core';
 
 // App
 import { AppController } from './app/app.controller';

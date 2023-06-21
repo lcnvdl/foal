@@ -1,4 +1,4 @@
-import { Config, ConfigTypeError } from '@foal/core';
+import { Config, ConfigTypeError } from 'foalts2-core';
 import { deepStrictEqual, strictEqual, throws } from 'assert';
 import { getSecretOrPublicKey } from './get-secret-or-public-key.util';
 

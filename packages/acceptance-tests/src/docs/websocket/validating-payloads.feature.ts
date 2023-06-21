@@ -6,7 +6,7 @@ import * as http from 'http';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { EventName, SocketIOController, WebsocketContext, WebsocketResponse, ValidatePayload } from '@foal/socket.io';
+import { EventName, SocketIOController, WebsocketContext, WebsocketResponse, ValidatePayload } from 'foalts2-socket.io';
 import { closeConnections, createConnections } from './common';
 
 describe('Feature: Validating payloads', () => {

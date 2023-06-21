@@ -2,7 +2,7 @@
 import * as request from 'supertest';
 
 // FoalTS
-import { createApp, Get, HttpResponseOK } from '@foal/core';
+import { createApp, Get, HttpResponseOK } from 'foalts2-core';
 
 describe('Feature: Creating a controller', () => {
 

@@ -1,4 +1,4 @@
-import { Config } from '@foal/core';
+import { Config } from 'foalts2-core';
 
 export function getSecretOrPublicKey(): Buffer|string {
   const secret = Config.get('settings.jwt.secret', 'string');

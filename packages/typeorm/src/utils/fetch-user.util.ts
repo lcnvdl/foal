@@ -1,5 +1,5 @@
 // 3p
-import { Class, FetchUser } from '@foal/core';
+import { Class, FetchUser } from 'foalts2-core';
 import { getRepository } from 'typeorm';
 
 /**
@@ -8,9 +8,9 @@ import { getRepository } from 'typeorm';
  * It returns undefined if no entity can be found.
  *
  * This function is usually used by:
- * - UseSessions (@foal/core)
- * - JWTRequired (@foal/jwt)
- * - JWTOptional (@foal/jwt)
+ * - UseSessions (foalts2-core)
+ * - JWTRequired (foalts2-jwt)
+ * - JWTOptional (foalts2-jwt)
  *
  * @export
  * @param {(Class<{ id: number|string }>)} userEntityClass - The entity class.

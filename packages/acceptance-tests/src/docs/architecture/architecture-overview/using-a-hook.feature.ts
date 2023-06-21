@@ -3,8 +3,8 @@ import { sign } from 'jsonwebtoken';
 import * as request from 'supertest';
 
 // FoalTS
-import { Config, createApp, Get, HttpResponseOK } from '@foal/core';
-import { getSecretOrPrivateKey, JWTRequired } from '@foal/jwt';
+import { Config, createApp, Get, HttpResponseOK } from 'foalts2-core';
+import { getSecretOrPrivateKey, JWTRequired } from 'foalts2-jwt';
 
 describe('Feature: Using a hook', () => {
 

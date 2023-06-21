@@ -9,9 +9,9 @@ import { sign } from 'jsonwebtoken';
 import * as superagent from 'superagent';
 
 // FoalTS
-import { createApp, Get, HttpResponseOK } from '@foal/core';
-import { getRSAPublicKeyFromJWKS } from '@foal/jwks-rsa';
-import { JWTRequired } from '@foal/jwt';
+import { createApp, Get, HttpResponseOK } from 'foalts2-core';
+import { getRSAPublicKeyFromJWKS } from 'foalts2-jwks-rsa';
+import { JWTRequired } from 'foalts2-jwt';
 
 describe('[Authentication|JWT|JWKS] Users can be authenticated with a JWKS retreived', () => {
 

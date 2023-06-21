@@ -1,5 +1,5 @@
 // FoalTS
-import { SocketIOController } from '@foal/socket.io';
+import { SocketIOController } from 'foalts2-socket.io';
 
 describe('Feature: Passing custom server options', () => {
 

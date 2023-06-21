@@ -1,6 +1,6 @@
 // 3p
 import 'reflect-metadata';
-import { ServiceManager } from '@foal/core';
+import { ServiceManager } from 'foalts2-core';
 
 // FoalTS
 import { WebsocketErrorResponse, WebsocketResponse } from './websocket-responses';

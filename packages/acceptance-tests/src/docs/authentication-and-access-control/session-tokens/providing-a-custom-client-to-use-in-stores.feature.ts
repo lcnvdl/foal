@@ -4,14 +4,14 @@ import { } from 'assert';
 // 3p
 import * as request from 'supertest';
 import { createClient } from 'redis';
-import { getConnection } from '@foal/typeorm/node_modules/typeorm';
+import { getConnection } from 'typeorm';
 import { MongoClient } from 'mongodb';
 
 // FoalTS
-import { createApp, createSession, dependency, Get, HttpResponseInternalServerError, HttpResponseOK, ServiceManager } from '@foal/core';
-import { RedisStore } from '@foal/redis';
-import { DatabaseSession, TypeORMStore } from '@foal/typeorm';
-import { MongoDBStore } from '@foal/mongodb';
+import { createApp, createSession, dependency, Get, HttpResponseInternalServerError, HttpResponseOK, ServiceManager } from 'foalts2-core';
+import { RedisStore } from 'foalts2-redis';
+import { DatabaseSession, TypeORMStore } from 'foalts2-typeorm';
+import { MongoDBStore } from 'foalts2-mongodb';
 import { createTestConnection } from '../../../common';
 
 describe('Feature: Providing a Custom Client to Use in the Stores', () => {

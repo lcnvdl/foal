@@ -3,8 +3,8 @@ import { strictEqual } from 'assert';
 import { Server } from 'http';
 
 // 3p
-import { createApp, Get, HttpResponseOK } from '@foal/core';
-import { isInvalidTokenError } from '@foal/jwt';
+import { createApp, Get, HttpResponseOK } from 'foalts2-core';
+import { isInvalidTokenError } from 'foalts2-jwt';
 
 // FoalTS
 import { getRSAPublicKeyFromJWKS, Options } from './get-rsa-public-key-from-jwks';

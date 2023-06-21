@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // 3p
-import { Connection } from '@foal/typeorm/node_modules/typeorm';
+import { Connection } from 'typeorm';
 import * as request from 'supertest';
 
 // FoalTS
@@ -22,8 +22,8 @@ import {
   UseSessions,
   ValidateBody,
   verifyPassword
-} from '@foal/core';
-import { DatabaseSession, TypeORMStore } from '@foal/typeorm';
+} from 'foalts2-core';
+import { DatabaseSession, TypeORMStore } from 'foalts2-typeorm';
 import { createFixtureUser, createTestConnection, credentialsSchema, readCookie, User } from '../../../common';
 
 describe('Feature: Stateful CSRF protection in a Regular Web App', () => {

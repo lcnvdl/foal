@@ -19,13 +19,13 @@ import {
   UseSessions,
   ValidateBody,
   verifyPassword
-} from '@foal/core';
-import { RedisStore } from '@foal/redis';
+} from 'foalts2-core';
+import { RedisStore } from 'foalts2-redis';
 import * as redis from 'redis';
 import * as request from 'supertest';
 
 // FoalTS
-import { fetchMongoDBUser } from '@foal/typeorm';
+import { fetchMongoDBUser } from 'foalts2-typeorm';
 import {
   Column,
   Connection,
@@ -34,7 +34,7 @@ import {
   getMongoRepository,
   ObjectID,
   ObjectIdColumn
-} from '@foal/typeorm/node_modules/typeorm';
+} from 'typeorm';
 
 describe('[Sample] MongoDB & Redis Store', async () => {
 

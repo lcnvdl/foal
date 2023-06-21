@@ -18,7 +18,7 @@ import {
   OPENAPI_SERVICE_ID,
   ServiceManager,
   streamToBuffer
-} from '@foal/core';
+} from 'foalts2-core';
 
 // FoalTS
 import { SwaggerController } from './swagger-controller';

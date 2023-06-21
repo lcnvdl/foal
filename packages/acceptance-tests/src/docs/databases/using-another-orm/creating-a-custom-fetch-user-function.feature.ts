@@ -2,7 +2,7 @@
 import { deepStrictEqual, rejects, strictEqual } from 'assert';
 
 // FoalTS
-import { FetchUser, ServiceManager } from '@foal/core';
+import { FetchUser, ServiceManager } from 'foalts2-core';
 
 describe('Feature: Creating a custom fetch user function.', () => {
 

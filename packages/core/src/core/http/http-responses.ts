@@ -163,7 +163,7 @@ export abstract class HttpResponse<T = any> {
 /**
  * Check if an object is an instance of HttpResponse.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -209,7 +209,7 @@ export abstract class HttpResponseSuccess<T = any> extends HttpResponse<T> {
 /**
  * Check if an object is an instance of HttpResponseSuccess.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -254,7 +254,7 @@ export class HttpResponseOK<T = any> extends HttpResponseSuccess<T> {
 /**
  * Check if an object is an instance of HttpResponseOK.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -299,7 +299,7 @@ export class HttpResponseCreated<T = any> extends HttpResponseSuccess<T> {
 /**
  * Check if an object is an instance of HttpResponseCreated.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -343,7 +343,7 @@ export class HttpResponseNoContent extends HttpResponseSuccess {
 /**
  * Check if an object is an instance of HttpResponseNoContent.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -389,7 +389,7 @@ export abstract class HttpResponseRedirection<T = any> extends HttpResponse<T> {
 /**
  * Check if an object is an instance of HttpResponseRedirection.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -435,7 +435,7 @@ export class HttpResponseMovedPermanently extends HttpResponseRedirection {
 /**
  * Check if an object is an instance of HttpResponseMovedPermanently.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -482,7 +482,7 @@ export class HttpResponseRedirect<T = any> extends HttpResponseRedirection<T> {
 /**
  * Check if an object is an instance of HttpResponseRedirect.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -528,7 +528,7 @@ export abstract class HttpResponseClientError<T = any> extends HttpResponse<T> {
 /**
  * Check if an object is an instance of HttpResponseClientError.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -574,7 +574,7 @@ export class HttpResponseBadRequest<T = any> extends HttpResponseClientError<T> 
 /**
  * Check if an object is an instance of HttpResponseBadRequest.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -621,7 +621,7 @@ export class HttpResponseUnauthorized<T = any> extends HttpResponseClientError<T
 /**
  * Check if an object is an instance of HttpResponseUnauthorized.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -667,7 +667,7 @@ export class HttpResponseForbidden<T = any> extends HttpResponseClientError<T> {
 /**
  * Check if an object is an instance of HttpResponseForbidden.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -712,7 +712,7 @@ export class HttpResponseNotFound<T = any> extends HttpResponseClientError<T> {
 /**
  * Check if an object is an instance of HttpResponseNotFound.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -757,7 +757,7 @@ export class HttpResponseMethodNotAllowed<T = any> extends HttpResponseClientErr
 /**
  * Check if an object is an instance of HttpResponseMethodNotAllowed.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -803,7 +803,7 @@ export class HttpResponseConflict<T = any> extends HttpResponseClientError<T> {
 /**
  * Check if an object is an instance of HttpResponseConflict.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -848,7 +848,7 @@ export class HttpResponseTooManyRequests<T = any> extends HttpResponseClientErro
 /**
  * Check if an object is an instance of HttpResponseTooManyRequests.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -889,7 +889,7 @@ export abstract class HttpResponseServerError<T = any> extends HttpResponse<T> {
 /**
  * Check if an object is an instance of HttpResponseServerError.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -939,7 +939,7 @@ export class HttpResponseInternalServerError<T = any> extends HttpResponseServer
 /**
  * Check if an object is an instance of HttpResponseInternalServerError.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this
@@ -985,7 +985,7 @@ export class HttpResponseNotImplemented<T = any> extends HttpResponseServerError
 /**
  * Check if an object is an instance of HttpResponseNotImplemented.
  *
- * This function is a help when you have several packages using @foal/core.
+ * This function is a help when you have several packages using foalts2-core.
  * Npm can install the package several times, which leads to duplicate class
  * definitions. If this is the case, the keyword `instanceof` may return false
  * while the object is an instance of the class. This function fixes this

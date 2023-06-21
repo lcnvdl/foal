@@ -3,7 +3,7 @@ import * as Ajv from 'ajv';
 import { createConnection, getConnection, getRepository } from 'typeorm';
 
 // FoalTS
-import { Permission } from '@foal/typeorm';
+import { Permission } from 'foalts2-typeorm';
 import { main as createPerm, schema } from './create-perm';
 
 describe('[Shell scripts] create-perm', () => {

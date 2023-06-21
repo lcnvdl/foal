@@ -2,7 +2,7 @@
 import { strictEqual } from 'assert';
 
 // FoalTS
-import { generateSignedToken, generateToken, verifySignedToken } from '@foal/core';
+import { generateSignedToken, generateToken, verifySignedToken } from 'foalts2-core';
 
 describe('[Docs] Cookbook > Generate (and Verify) Tokens', () => {
 

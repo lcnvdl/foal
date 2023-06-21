@@ -44,7 +44,7 @@ const errMessage = (msg: string) => `
 |                                                          |
 | -------------------------------------------------------- |
 |                                                          |
-|  const { Env } = require('@foal/core');                  |
+|  const { Env } = require('foalts2-core');                  |
 |                                                          |
 |  {                                                       |
 |    settings: {                                           |

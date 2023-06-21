@@ -6,7 +6,7 @@ import * as http from 'http';
 import { io } from 'socket.io-client';
 
 // FoalTS
-import { EventName, SocketIOController, wsController, WebsocketContext, WebsocketErrorResponse, WebsocketHook, ISocketIOController } from '@foal/socket.io';
+import { EventName, SocketIOController, wsController, WebsocketContext, WebsocketErrorResponse, WebsocketHook, ISocketIOController } from 'foalts2-socket.io';
 import { closeConnections, createConnections } from './common';
 
 describe('Feature: Using Websocket controllers and hooks', () => {

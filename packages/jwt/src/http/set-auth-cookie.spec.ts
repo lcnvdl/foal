@@ -2,7 +2,7 @@
 import { deepStrictEqual, notStrictEqual, rejects, strictEqual } from 'assert';
 
 // 3p
-import { Config, HttpResponse, HttpResponseOK } from '@foal/core';
+import { Config, HttpResponse, HttpResponseOK } from 'foalts2-core';
 import { decode, sign, verify } from 'jsonwebtoken';
 
 // FoalTS

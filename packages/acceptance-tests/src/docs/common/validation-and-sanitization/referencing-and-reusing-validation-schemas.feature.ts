@@ -2,7 +2,7 @@
 import * as request from 'supertest';
 
 // FoalTS
-import { Context, createApp, getAjvInstance, HttpResponseOK, Post, ValidateBody } from '@foal/core';
+import { Context, createApp, getAjvInstance, HttpResponseOK, Post, ValidateBody } from 'foalts2-core';
 
 describe('Feature: Referencing and reusing validation schemas.', () => {
 

@@ -1,6 +1,6 @@
 // 3p
 import { MyController, MyController2, TestFooBarController } from './api';
-import { controller } from '@foal/core';
+import { controller } from 'foalts2-core';
 
 export class ApiController {
   subControllers = [

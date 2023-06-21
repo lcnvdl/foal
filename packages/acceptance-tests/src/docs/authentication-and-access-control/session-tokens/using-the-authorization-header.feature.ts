@@ -19,8 +19,8 @@ import {
   Session,
   Store,
   UseSessions
-} from '@foal/core';
-import { DatabaseSession } from '@foal/typeorm';
+} from 'foalts2-core';
+import { DatabaseSession } from 'foalts2-typeorm';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath } from '../../../common';
 
 describe('Feature: Using the Authorization header', () => {

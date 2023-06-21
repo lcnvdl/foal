@@ -1,5 +1,5 @@
 // 3p
-import { getAjvInstance } from '@foal/core';
+import { getAjvInstance } from 'foalts2-core';
 
 // FoalTS
 import { WebsocketContext, WebsocketHook, WebsocketHookDecorator, WebsocketErrorResponse } from '../architecture';

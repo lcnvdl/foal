@@ -1,4 +1,4 @@
-import { SessionAlreadyExists, SessionState, SessionStore } from '@foal/core';
+import { SessionAlreadyExists, SessionState, SessionStore } from 'foalts2-core';
 import { Column, Connection, Entity, getConnection, IsNull, LessThan, Not, PrimaryColumn } from 'typeorm';
 
 @Entity({

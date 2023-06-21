@@ -2,8 +2,8 @@
 import * as request from 'supertest';
 
 // FoalTS
-import { Config, Context, createApp, createSession, dependency, Get, Hook, HttpResponseOK, Store, UseSessions } from '@foal/core';
-import { DatabaseSession } from '@foal/typeorm';
+import { Config, Context, createApp, createSession, dependency, Get, Hook, HttpResponseOK, Store, UseSessions } from 'foalts2-core';
+import { DatabaseSession } from 'foalts2-typeorm';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath } from '../../common';
 
 describe('Sessions should not be saved when an error has been thrown', () => {

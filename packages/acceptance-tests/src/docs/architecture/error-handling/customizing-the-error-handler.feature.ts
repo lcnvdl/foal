@@ -15,7 +15,7 @@ import {
   HttpResponseInternalServerError,
   IAppController,
   renderError
-} from '@foal/core';
+} from 'foalts2-core';
 
 describe('Feature: Customizing the error handler', () => {
 

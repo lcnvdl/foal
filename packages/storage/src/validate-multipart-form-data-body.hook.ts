@@ -14,7 +14,7 @@ import {
   IApiSchema,
   ServiceManager,
   streamToBuffer
-} from '@foal/core';
+} from 'foalts2-core';
 import * as Busboy from 'busboy';
 
 // FoalTS

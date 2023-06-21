@@ -4,8 +4,8 @@ import { pbkdf2, randomBytes } from 'crypto';
 import { promisify } from 'util';
 
 // FoalTS
-import { hashPassword, HttpResponseOK, HttpResponseUnauthorized, isHttpResponseOK, passwordHashNeedsToBeRefreshed, verifyPassword } from '@foal/core';
-import { BaseEntity, Column, Connection, Entity, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { hashPassword, HttpResponseOK, HttpResponseUnauthorized, isHttpResponseOK, passwordHashNeedsToBeRefreshed, verifyPassword } from 'foalts2-core';
+import { BaseEntity, Column, Connection, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import { createTestConnection } from '../../../common';
 
 describe('Feature: Upgrading passwords', () => {

@@ -15,7 +15,7 @@ import {
   dependency,
   IAppController,
   ServiceManager
-} from '@foal/core';
+} from 'foalts2-core';
 import { createAdapter } from '@socket.io/redis-adapter';
 import * as redis from 'redis';
 

@@ -2,7 +2,7 @@
 import { notStrictEqual, strictEqual } from 'assert';
 
 // 3p
-import { BaseEntity, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from '@foal/typeorm/node_modules/typeorm';
+import { BaseEntity, Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import * as request from 'supertest';
 
 // FoalTS
@@ -21,8 +21,8 @@ import {
   Store,
   UserRequired,
   UseSessions
-} from '@foal/core';
-import { DatabaseSession, fetchUser } from '@foal/typeorm';
+} from 'foalts2-core';
+import { DatabaseSession, fetchUser } from 'foalts2-typeorm';
 import { closeTestConnection, createTestConnection, getTypeORMStorePath, readCookie, writeCookie } from '../../../common';
 
 describe('Feature: Adding authentication and access control', () => {
