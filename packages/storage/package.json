@@ -49,12 +49,12 @@
     "mime": "~2.4.4"
   },
   "devDependencies": {
-    "@foal/internal-test": "^2.11.0",
-    "@types/mocha": "7.0.2",
+    "@foal/internal-test": "file:../internal-test",
+    "@types/mocha": "^10.0.1",
     "@types/node": "10.17.24",
     "@types/supertest": "2.0.10",
     "copy": "~0.3.2",
-    "mocha": "~8.3.0",
+    "mocha": "^10.2.0",
     "rimraf": "~2.6.2",
     "supertest": "~6.2.3",
     "ts-node": "~9.0.0",

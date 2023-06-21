@@ -8,7 +8,8 @@
     "lint": "tslint -c tslint.json --project tsconfig.json",
     "lint:fix": "tslint -c tslint.json --project tsconfig.json --fix",
     "start-docker": "docker-compose build && docker-compose up -d",
-    "stop-docker": "docker-compose down"
+    "stop-docker": "docker-compose down",
+    "npm:i": "npx bhic npm-install.cmd"
   },
   "repository": {
     "type": "git",
