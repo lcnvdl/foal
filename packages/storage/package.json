@@ -1,6 +1,6 @@
 {
   "name": "foalts2-storage",
-  "version": "2.12.0",
+  "version": "2.12.3",
   "description": "Storage components for FoalTS",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -44,7 +44,7 @@
     "lib/"
   ],
   "dependencies": {
-    "busboy": "~0.3.1",
+    "busboy": "~1.6.0",
     "foalts2-core": "^2.12.0",
     "mime": "~2.4.4"
   },
@@ -52,7 +52,7 @@
     "@types/mocha": "^10.0.1",
     "@types/node": "10.17.24",
     "@types/supertest": "2.0.10",
-    "copy": "~0.3.2",
+    "copy": "^0.3.2",
     "foalts2-internal-test": "file:../internal-test",
     "mocha": "^10.2.0",
     "rimraf": "^5.0.1",

@@ -1,5 +1,6 @@
 // std
 import { extname } from 'path';
+import { finished, Readable } from 'stream';
 
 // 3p
 import {
@@ -15,11 +16,16 @@ import {
   ServiceManager,
   streamToBuffer
 } from 'foalts2-core';
-import * as Busboy from 'busboy';
+// import * as Busboy from 'busboy';
+import * as createBusboy from 'busboy';
 
 // FoalTS
 import { Disk } from './disk.service';
 import { File } from './file';
+
+/*function createBusboy(args: any) {
+  return new Busboy(args);
+}*/
 
 export interface MultipartFormDataSchema {
   fields?: {
@@ -45,7 +51,7 @@ export function ValidateMultipartFormDataBody(
 ): HookDecorator {
 
   function hook(ctx: Context, services: ServiceManager) {
-    return new Promise<HttpResponseBadRequest|void>((resolve, reject) => {
+    return new Promise<HttpResponseBadRequest | void>((resolve, reject) => {
       const fields: any = {};
       const files: any = {};
       for (const name in schema.files) {
@@ -58,7 +64,7 @@ export function ValidateMultipartFormDataBody(
       const fileNumberLimit = Config.get('settings.multipartRequests.fileNumberLimit', 'number');
       let busboy: any;
       try {
-        busboy = new Busboy({
+        busboy = createBusboy({
           headers: ctx.request.headers,
           limits: {
             fileSize: fileSizeLimit,
@@ -80,7 +86,9 @@ export function ValidateMultipartFormDataBody(
 
       busboy.on('field', (name: string, value: string) => fields[name] = value);
       // tslint:disable-next-line: max-line-length
-      busboy.on('file', (name: string, stream: NodeJS.ReadableStream, filename: string|undefined, encoding: string, mimeType: string) => {
+      busboy.on('file', (name: string, stream: Readable, info: { filename: string | undefined, encoding: string, mimeType: string }) => {
+        const { filename, encoding, mimeType } = info;
+
         latestFileHasBeenUploaded = convertRejectedPromise(async () => {
           stream.on('limit', () => sizeLimitReached = name);
 
@@ -103,6 +111,7 @@ export function ValidateMultipartFormDataBody(
           } else {
             buffer = await streamToBuffer(stream);
           }
+
           const file = new File({
             buffer,
             encoding,
