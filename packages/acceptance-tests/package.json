@@ -11,7 +11,7 @@
     "url": "https://github.com/sponsors/LoicPoullain"
   },
   "dependencies": {
-    "foalts2-core": "^2.12.0",
+    "foalts2-core": "^2.12.1",
     "@foal/graphiql": "^2.11.0",
     "foalts2-jwks-rsa": "^2.12.0",
     "foalts2-jwt": "^2.12.1",
